@@ -1,0 +1,50 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 10px;
+	margin: 20px auto;
+}
+
+.label {
+	font-size: .8rem;
+}
+
+.input__number, .select__operator {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.select__operator {
+	width: auto;
+	cursor: pointer;
+}
+
+.button__calculate {
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.result, .error {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.error {
+	color: red;
+}
